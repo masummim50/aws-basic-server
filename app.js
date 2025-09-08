@@ -8,5 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, "0.0.0.0", () => {
-  console.log(`Server is running with zeros on http://localhost:${PORT}`);
+  console.log(
+    `Server is running with zeros folder change on http://localhost:${PORT}`
+  );
 });

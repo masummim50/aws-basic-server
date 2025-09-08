@@ -2,9 +2,10 @@
   "name": "node-rest-api-server",
   "version": "1.0.0",
   "description": "A simple Node.js REST API server that responds with 'Hello World'.",
-  "main": "src/app.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "^4.21.2"
