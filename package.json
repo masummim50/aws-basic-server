@@ -1,0 +1,14 @@
+{
+  "name": "node-rest-api-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js REST API server that responds with 'Hello World'.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
